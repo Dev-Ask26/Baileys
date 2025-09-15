@@ -1,5 +1,5 @@
 {
-    "entryPoints": ["./ask-lib/index.ts"],
+    "entryPoints": ["./lib/index.ts"],
     "excludePrivate": true,
     "excludeProtected": true,
     "excludeExternals": true,
