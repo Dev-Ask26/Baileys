@@ -6,7 +6,7 @@
     "experimentalDecorators": true,
     "allowJs": false,
     "checkJs": false,
-    "outDir": "ask-lib",
+    "outDir": "lib",
     "strict": false,
     "strictNullChecks": true,
     "skipLibCheck": true,
@@ -17,6 +17,6 @@
     "declaration": true,
     "lib": ["es2020", "esnext.array", "DOM"]
   },
-  "include": ["./ask-lib/**/*.ts"],
-  "exclude": ["node_modules", "ask-lib/Tests/*", "ask-lib/Binary/GenerateStatics.ts"]
+  "include": ["./lib/**/*.ts"],
+  "exclude": ["node_modules", "lib/Tests/*", "lib/Binary/GenerateStatics.ts"]
 }
