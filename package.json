@@ -18,12 +18,12 @@
   },
   "license": "MIT",
   "author": "DEV ASK TECH",
-  "main": "ask-lib/index.js",
-  "types": "ask-lib/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "files": [
-    "ask-lib/*",
-    "AskWaproto/*",
-    "AskWASignalGroup/*.js"
+    "lib/*",
+    "WaProto/*",
+    "WASignalGroup/*.js"
   ],
   "scripts": {
     "build:all": "tsc && typedoc",
@@ -34,7 +34,7 @@
     "changelog:update": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "example": "node --inspect -r ts-node/register Example/example.ts",
     "example:mobile": "node --inspect -r ts-node/register Example/example.ts --mobile",
-    "gen:protobuf": "sh AskWaproto/GenerateStatics.sh",
+    "gen:protobuf": "sh Waproto/GenerateStatics.sh",
     "lint": "eslint src --ext .js,.ts,.jsx,.tsx",
     "lint:fix": "eslint src --fix --ext .js,.ts,.jsx,.tsx",
     "prepack": "tsc",
